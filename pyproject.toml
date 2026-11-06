@@ -1,0 +1,7 @@
+[project]
+name = "csv-analyst"
+version = "0.1.0"
+requires-python = ">=3.12,<3.15"
+dependencies = ["mistralai-agents[bashkit,sessions-client,koyeb]==1.1.0"]
+
+[tool.uv.workspace]
